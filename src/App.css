@@ -1,0 +1,48 @@
+.selectElement{
+  width: 300px;
+  height: 40px;
+  margin-left: 20px;
+  margin-bottom: 50px;
+  border-radius: 10px;
+}
+.textInput{
+  height: 30px;
+  width: 300px;
+  border-radius: 10px;
+  margin-top: 5px;
+}
+.button{
+  border-radius: 5px;
+  background-color: #4287f5;
+  width: 100px;
+  outline: none;
+  height: 30px;
+  color: aliceblue;
+  border: none;
+  margin-top: 5px;
+  cursor: pointer;
+}
+.errormsg{
+  font-size: 12px;
+  color: red;
+  font-weight: bold;
+}
+.top-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+@media screen and (max-width:700px){
+  .top-container{
+    display: flex;
+    flex-direction: column;
+  }
+}
+.left-container{
+  margin-right: 20px;
+}
+.heading{
+  font-size: 28px;
+  color: #4287f5;
+  margin-left: 20px;
+}
