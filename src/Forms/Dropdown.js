@@ -3,7 +3,7 @@ import '../App.css'
 import { useState } from 'react'
 
 function Dropdown({data,formData,setFormData}) {
-    const {label,id,type,choicesDetails} = data
+    const {label,id,choicesDetails} = data
     const [selectedOption, setSelectedOption] = useState('')
 
     const onSelectValue = (event)=>{

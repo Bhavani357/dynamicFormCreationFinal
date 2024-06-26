@@ -6,7 +6,6 @@ function Checkbox({data,formData,setFormData}) {
     const {label,id,type,choicesDetails} = data
     const [checkedItems, setCheckedItems] = useState({})
     const [selectedCheckBox, setSelectedCheckbox] = useState([])
-
     const handleCheckBoxChange=(each)=>{
       const updatedCheckedItems = {...checkedItems,[each]: !checkedItems[each]}
       setCheckedItems(updatedCheckedItems)
